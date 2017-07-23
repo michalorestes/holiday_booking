@@ -1,0 +1,101 @@
+html {
+	height: 100%;
+	overflow: auto;
+	padding: 0;
+	margin: 0;  	
+}
+
+body {
+	font-family: Verdana, Arial; 
+	font-size: 12px; 
+	color: black; 
+	width: 100%; 
+	height: 99%; 
+	margin: 0;
+	padding: 0; 
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+ul {
+	text-decoration: none; 
+	list-style: none;
+}
+
+.floarLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.overflow {
+	overflow: hidden;
+}
+
+.centerContainer {
+	margin-left: auto; 
+	margin-right: auto;
+	width: 50%; 
+}
+
+
+.button {
+	-moz-border-radius: 13px;
+	-webkit-border-radius: 13px;
+	border-radius: 13px;
+	background-color: blue;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+.button a {
+color: white;}
+
+.card {
+	background-color: white;
+}
+
+
+div#mainBody {
+	border-top: 1px; 
+	border-top-color: gray; 
+	border-top-style: solid;
+	background-image: url("../img/brightonIMGmain.jpg");
+	background-repeat: no-repeat;
+	height: 90%;
+	position:relative; 
+	clear: both;
+}
+
+.centerContainer {
+	position: relative; 
+	top: 80px;	
+}
+
+.card {
+	background-color: white;
+	padding: 20px;
+	position: relative;
+}
+
+.card form {
+	width: 30%; 
+	margin: 20px auto;
+	
+}
+
+.centerItems {
+	
+}
+
+

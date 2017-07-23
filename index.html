@@ -1,34 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb">
+	<head>
+		<title>Brighton Holiday Accomodation</title>
+		<link rel="stylesheet" type="text/css" href="css/header.css" />
+		<link rel="stylesheet" type="text/css" href="css/master.css" />
+		<link rel="stylesheet" type="text/css" href="css/content.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	</head>
 
-    <head> 
-        <title>Brighton Holiday Accomodation</title>
-        <link rel="stylesheet" type="text/css" href="css/master.css"/>
-		<link rel="stylesheet" type="text/css" href="css/homePage.css"/>
-    </head>
-    
-    <body> 
-        <div id="topNavigationCont" class="centerContainerWide">
-			<div>
-				<ul> 
-					<li><a href="index.html">Home Page</a></li>
-					<li><a href="#">View Properties</a></li>
-					<li><a href="#">List Property</a></li>
-					<li class="button"><a href="html/login.html">Login</a></li>
-				</ul>
-			
-				<a href="index.html" id="mg-logo"><img  src="img/logo.png" alt="logo"/></a>
+	<body>
+		<div id="topCont" class="clear">
+			<div class="centerContWide">
+				<div id="mainNaviationCont" class="clear">
+					<ul id="navigation" class="floatRight">
+						<li><a href="index.php">Home</a></li>
+						<li id="searchBtn"><a href="#">Search</a></li>
+						<li><a class="btn" href="#">Login</a></li>
+					</ul>
+					<a href="index.html" class="floatLeft"><img id="logoImg" src="img/logo.png" /></a>
+				</div>
+				<div id="memberNavigationCont" class="clear">
+					<ul id="navigation" class="floatRight">
+						<li><a href="#">My Properties</a></li>
+						<li id="searchBtn"><a href="#">List Property</a></li>
+						<li><a href="#">Login</a></li>
+					</ul>
+					<form class="hCenter">
+						<input type="text" size="40" />
+						<input type="submit" value="Search" /> </form>
+				</div>
 			</div>
-            
-        </div><!-- End of top navigation container -->
-		
-		<div id="mainBody"> 
-			<div class="centerContainer">
-				<a class="floatRight" href="#1"><img src="img/propertyIcon.png" /><br /><span>View Properties</span></a>
-				<a class="floatLeft" href="#1"><img src="img/listIcon.png" /><br /><span>List Property</span></a>
-			</div>	
 		</div>
-    </body>
-</html>
+		<div class="centerCont">
+			<div id="bodyCont" class="centerItems">
+				<h1>Title</h1>
+				<hr />
+				<p>Smoe example some example some example some example some example some example some example</p>
+			</div>
+		</div>
+		<!--<div id="footer">Copyright</div>-->
+	</body>
+
+	</html>

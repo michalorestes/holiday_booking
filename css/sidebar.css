@@ -1,0 +1,20 @@
+#sideBar {
+	width: 20%;
+	padding: 1%;
+}
+
+div#sideBar ul {
+	margin: 10px 0 0 0;
+}
+
+div#sideBar ul li {
+	display: block;
+}
+
+div#sideBar input#txtSearch {
+    width: 60%;
+}
+
+div#sideBar input#btnSearch {
+    width: 35%;   
+}

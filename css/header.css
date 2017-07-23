@@ -1,0 +1,109 @@
+div#topCont {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  -webkit-box-shadow: 0px 5px 12px 0px rgba(50, 50, 50, 0.62);
+-moz-box-shadow: 0px 5px 12px 0px rgba(50, 50, 50, 0.62);
+box-shadow: 0px 5px 12px 0px rgba(50, 50, 50, 0.4);
+}
+
+div#mainNaviationCont {
+  width: 100%;
+  height: 60px;
+}
+
+div#mainNaviationCont ul {
+   	width: 200px%; 
+	margin: 1% auto;
+	display:table;
+	box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box; 
+}
+
+div#mainNaviationCont ul li {
+    font-size: 10pt;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 40px;
+	width: 100px;
+	height: 20px; 
+	line-height: 20px;
+	display: table-cell;
+	text-align: center;
+
+}
+
+li#loginBtn {
+    background-image: url(../img/memberIcon.png);
+}
+
+li.memberBtn {
+    background-image: url(../img/memberIcon.png);
+}
+
+li.homeBtn {
+    background-image: url(../img/homeIcon.png);
+}
+
+div#mainNaviationCont ul li a:hover {
+    color: #ffa407;
+     cursor: pointer;
+    
+}
+
+div#mainNaviationCont ul li:hover {
+     cursor: pointer;
+    color: #ffa407;
+    
+}
+
+
+
+
+img#logoImg {
+  height: 50px;
+  width: 120px;
+  margin-top: 15px;
+}
+
+ul.navigation li {
+  display: inline;
+  color: black;
+  font-size: 14pt;
+  margin-left: 20px;
+}
+
+ul.navigation li a {
+  font-weight: normal;
+  color: black;
+}
+
+div#memberNavigationCont ul {
+  margin-top: 15px;
+}
+
+div#memberNavigationCont ul li {
+  font-size: 10pt !important;
+}
+
+
+
+div#memberNavigationCont {
+  width: 100%;
+  background-color: #eaeaea;
+  height: 50px;
+  position: relative;
+}
+
+
+
+div#message {
+  background-color: #f73333;
+  font-size: 9pt;
+  font-weight: bolder;
+  color: #ffffff;
+
+}

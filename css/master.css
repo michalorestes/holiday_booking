@@ -1,31 +1,116 @@
+@media only screen and (max-width: 1080px){
+    div.centerCont {
+       width: 100%; 
+    }
+}
 html {
-	height: 100%;
-	overflow: auto;
-	padding: 0;
-	margin: 0;  	
+	font-family: Verdana;
+	font-size: 12pt;
+	color: black;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background-image: url("../img/brightonIMGmain.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 body {
-	font-family: Verdana, Arial; 
-	font-size: 12px; 
-	color: black; 
-	width: 100%; 
-	height: 99%; 
-	margin: 0;
-	padding: 0; 
+	margin: 0px;
+	padding: 0px;
+}
+
+table {
+	width: 100%;
+}
+
+h1 {
+	font-size: 20pt;
+}
+
+h2 {}
+
+h3 {
+	color: black;
+}
+
+h4 {
+	color: #4286f4;
+	font-style: italic;
+	font-size: 11pt;
+	
+}
+
+em {
+    color: red;
 }
 
 a {
-	color: black;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 ul {
-	text-decoration: none; 
-	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
-.floarLeft {
+li {
+	list-style-type: none;
+	display: inline;
+}
+
+fieldset {
+    border: 0;
+}
+
+.btn {
+	font-size: 11pt;
+	color: #3d7ae2;
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+/* mouse over link */
+
+.btn:hover {
+	color: orange;
+}
+
+.centerContWide {
+	width: 80%;
+	margin: 0 auto auto;
+}
+
+.centerCont {
+	width: 60%;
+	position: relative;
+	margin: 0 auto auto;
+}
+
+.centerItems {
+	width: 300px;
+	margin: 0 auto;
+}
+
+
+/*Requires parent to be set to position: relative*/
+
+.hCenter {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#map {
+        height: 450px;
+		widows: 100%; 
+	background-color: blue;
+		
+      }
+
+.floatLeft {
 	float: left;
 }
 
@@ -37,65 +122,19 @@ ul {
 	clear: both;
 }
 
-.overflow {
-	overflow: hidden;
+a.currentPage {
+	font-weight: bold !important; 
+	text-decoration: underline !important;
+	color: orange !important;
 }
 
-.centerContainer {
-	margin-left: auto; 
-	margin-right: auto;
-	width: 50%; 
+div.footer {
+   position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
-
-
-.button {
-	-moz-border-radius: 13px;
-	-webkit-border-radius: 13px;
-	border-radius: 13px;
-	background-color: blue;
-	padding: 10px;
-	color: white;
-	font-weight: bold;
-}
-
-.button a {
-color: white;}
-
-.card {
-	background-color: white;
-}
-
-
-div#mainBody {
-	border-top: 1px; 
-	border-top-color: gray; 
-	border-top-style: solid;
-	background-image: url("../img/brightonIMGmain.jpg");
-	background-repeat: no-repeat;
-	height: 90%;
-	position:relative; 
-	clear: both;
-}
-
-.centerContainer {
-	position: relative; 
-	top: 80px;	
-}
-
-.card {
-	background-color: white;
-	padding: 20px;
-	position: relative;
-}
-
-.card form {
-	width: 30%; 
-	margin: 20px auto;
-	
-}
-
-.centerItems {
-	
-}
-
 

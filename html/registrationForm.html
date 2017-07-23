@@ -1,65 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<form action="registrationPage.php" method="post" class="centerItems">
+        <table class="clear">
+          <tr>
+            <td>Username: </td>
+            <td><input type="text" name="txt_name" /></td>
+          </tr>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb">
+          <tr>
+            <td>E-mail: </td>
+            <td><input type="text" name="txt_email" /></td>
+          </tr>
 
-    <head> 
-        <title>Brighton Holiday Accomodation</title>
-		<link rel="stylesheet" type="text/css" href="../css/master.css"/>
-        <link rel="stylesheet" type="text/css" href="../css/homePage.css"/>
-		
-    </head>
-    
-    <body> 
-        <div id="topNavigationCont" class="centerContainerWide">
-			<div>
-				<ul> 
-					<li><a href="../index.html">Home Page</a></li>
-					<li><a href="#">View Properties</a></li>
-					<li><a href="#">List Property</a></li>
-					<li><a href="../html/login.html">Login</a></li>
-				</ul>
-			
-				<a href="../index.html" id="mg-logo"><img  src="../img/logo.png" alt="logo"/></a>
-			</div>
-            
-        </div><!-- End of top navigation container -->
-		
-		<div id="mainBody"> 
-			<div class="centerContainer card">
-				<h1>Create an account</h1>
-				<hr />
-				<form > 
-					<table class="clear">
-						<tr>
-							<td>Name: </td>
-							<td><input /></td>
-						</tr>
-						<tr>
-							<td>Surname: </td>
-							<td><input /></td>
-						</tr>
-						<tr>
-							<td>E-mail: </td>
-							<td><input /></td>
-						</tr>
-						<tr>
-							<td>Password: </td>
-							<td><input /></td>
-						</tr>
-						<tr>
-							<td>Repeat Password: </td>
-							<td><input /></td>
-						</tr>
-						<tr>
-							<td><input type="checkbox" /> </td>
-							<td>I Accept terms and conditions.</td>
-						</tr>
-						<tr><td></td><td><button>Register</button></td></tr>
-					</table>				
-				
-				</form>
-			</div>	
-		</div>
-    </body>
-</html>
+          <tr>
+            <td>Contact Number: </td>
+            <td><input type="number" name="txt_contact" /></td>
+          </tr>
+          <tr>
+            <td>Password: </td>
+            <td><input type="password" name="txt_password1"/></td>
+          </tr>
+          <tr>
+            <td>Repeat Password: </td>
+            <td><input type="password" name="txt_password2" /></td>
+          </tr>
+          <tr>
+            <td><img id="captcha" src="securimage/securimage_show.php" alt="CAPTCHA Image" /></td>
+            <td><input type="text" name="captcha_code" size="10" maxlength="6" /></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="chk_terms" class="floatRight" checked="checked" /> </td>
+            <td>I Accept terms and conditions.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="submit" name="submit" class="floatRight" value="Submit" /></td>
+          </tr>
+        </table>
+      </form>
